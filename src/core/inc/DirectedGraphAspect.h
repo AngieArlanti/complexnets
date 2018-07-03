@@ -16,7 +16,6 @@ public:
      */
     void removeVertex(Vertex* v)
     {
-        T::template removeVertex<Vertex>(v);
 
         auto it = v->inNeighborsIterator();
 

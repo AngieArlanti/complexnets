@@ -58,4 +58,3 @@ namespace connectivityVerifierTest
         ASSERT_EQ(3, connectivityVerifier.vertexesLeft.size());
     }
 }
-

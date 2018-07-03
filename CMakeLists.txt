@@ -201,7 +201,7 @@ set(TEST_SRC
         test/DirectedClusteringCoefficientTest.cpp
         test/WeightedBetweennessTest.cpp
         test/ConnectivityVerifierTest.cpp
-        test/StrengthDistributionTest.cpp)
+        test/StrengthDistributionTest.cpp test/DirectedGraphAspectTest.cpp)
 
 add_subdirectory(${GTEST_ROOT} gtest)
 
